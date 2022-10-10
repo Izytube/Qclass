@@ -12,7 +12,7 @@ body #tems{margin-left: -8.5%;}
 @media screen and (max-width:600px) {
     #section2{display: inline;}
     #section1{display: inline;}
-    body{text-align: center; background-color: rgb(80, 99, 13);}
+    body{text-align: center;}
     body #checkBoxx{margin-left: -36%;}
     body #tems{margin-left: -27.5%;}
 }
