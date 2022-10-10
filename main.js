@@ -223,7 +223,7 @@ function resultt(){
 }
 
 function StatRecord(){
-    qual.innerHTML = "CONGRATULATIONS!\n You are Qualified  Qclass Scholarship\nBelow is statistics of your record"
+    qual.innerHTML = "CONGRATULATIONS!\n You are Qualified for Qclass Scholarship\nBelow is statistics of your record"
     myChart = new Chart(ctx, {
         type: 'bar',
         data: {
