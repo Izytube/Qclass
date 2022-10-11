@@ -1,0 +1,18 @@
+#section1{display: grid; grid-template-columns: 1fr 1fr; grid-gap: 20px; margin: auto; width: 100%;}
+#section2{display: grid; grid-template-columns: 1fr 1fr; grid-gap: 20px; margin: auto; width: 100%;}
+body{background-color: rgb(127, 148, 141); text-align: center;}
+body input { width: 250px; height: 24px; border-radius: 4.5px; border-color: greenyellow;}
+body select { width: 255px; height: 26px; border-radius: 4.5px; border-color: greenyellow;}
+body #tems{margin-left: -8.5%;}
+
+#fNameError, #lNameError, #pNumberError, #emailError, #addressError, #cityError, #stateError, #dobError, #countryError, #grade1Error, #grade2Error, #subject3Error, #grade3Error, #subject4Error, #grade4Error, #subject5Error, #grade5Error, #subject6Error, #grade6Error, #subject7Error, #grade7Error, #subject8Error, #grade8Error, #checkBoxError{
+    color: rgb(125, 5, 5); font-style: italic;
+}
+
+@media screen and (max-width:600px) {
+    #section2{display: inline;}
+    #section1{display: inline;}
+    body{text-align: center; background-color: rgb(80, 99, 13);}
+    body #checkBoxx{margin-left: -36%;}
+    body #tems{margin-left: -27.5%;}
+}
